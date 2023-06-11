@@ -5,45 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <p><strong>Header Logo</strong></p>
-      <nav>
-        <a href="">header link 1</a>
-        <a href="">header link 2</a>
-        <a href="">header link 3</a>
-      </nav>
-      <p class="maintext">This website is awesome</p>
-      <p>
-        This website has some subtext that goes under the main title. It's a
-        smaller font and color is lower contrast.
-      </p>
-      <button>Sign Up</button>
-      <img src="https://via.placeholder.com/400x200" alt="Image Placeholder" />
+      <div class="hero-container">
+        <div class="hero-logo">
+          <p><strong>Header Logo</strong></p>
+        </div>
+        <div class="nav-bar">
+          <a href="">header link 1</a>
+          <a href="">header link 2</a>
+          <a href="">header link 3</a>
+        </div>
+      </div>
+
+      <div class="header-container">
+        <div class="text-container">
+          <p class="maintext">This website is awesome</p>
+          <p class="subtext">
+            This website has some subtext that goes under the main title. It's a
+            smaller font and color is lower contrast.
+          </p>
+          <button class="header-button">Sign Up</button>
+        </div>
+        <div class="img-container">
+          <p>This is a place holder for an image</p>
+        </div>
+      </div>
     </header>
+
     <!-- Content 1 -->
-    <p>Some random information</p>
-    <img src="https://via.placeholder.com/200" alt="Image Placeholder" />
-    <img src="https://via.placeholder.com/200" alt="Image Placeholder" />
-    <img src="https://via.placeholder.com/200" alt="Image Placeholder" />
-    <img src="https://via.placeholder.com/200" alt="Image Placeholder" />
-    <p>this is some subtext under an illustration or Image</p>
-    <p>this is some subtext under an illustration or Image</p>
-    <p>this is some subtext under an illustration or Image</p>
-    <p>this is some subtext under an illustration or Image</p>
+    <section>
+      <div class="container">
+        <p class="infotext">Some random information</p>
+        <div class="box-container">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="subtext-container">
+          <p class="subtext1">
+            This is some subtext under an illustration or image
+          </p>
+          <p class="subtext1">
+            This is some subtext under an illustration or image
+          </p>
+          <p class="subtext1">
+            This is some subtext under an illustration or image
+          </p>
+          <p class="subtext1">
+            This is some subtext under an illustration or image
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Content 2 -->
-    <blockquote>
-      <p>"The only way to do great work is to love what you do."</p>
-      <cite>-Steve Jobs</cite>
-    </blockquote>
+    <section>
+      <div class="content2-background">
+        <div class="quote-container">
+          <blockquote class="quote">
+            <p class="quote-text">
+              "Success is not the key to happiness. Happiness is the key to
+              success. If you love what you are doing, you will be successful."
+            </p>
+            <cite class="quote-author">- Albert Schweitzer</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
     <!-- Content 3 -->
-    <button>Sign Up</button>
+    <div class="container3">
+      <div class="blue-container">
+        <div class="text-container">
+          <p class="text3">Call to action! It's time!</p>
+          <p class="subtext3">
+            Sign up for our product by clicking that button over there!
+          </p>
+        </div>
+        <div class="button-container">
+          <button class="signup-button3">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer>
-      <p>&copy; 2023 Bryan Bergenholtz. All rights reserved.</p>
+      <p class="footer-content">
+        &copy; 2023 Odin Project | Bryan . All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
